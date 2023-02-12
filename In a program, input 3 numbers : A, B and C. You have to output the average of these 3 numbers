@@ -1,0 +1,16 @@
+import java.util.*;
+public class java-beginner-to-advanced{
+    public static void main(String args[]) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number A");
+        int A =sc.nextInt();
+        System.out.println("Enter the number B");
+        int B =sc.nextInt();
+        System.out.println("Enter the number C");
+        int C =sc.nextInt();
+        int average = A+B+C;
+        System.out.println("the average of" );
+        System.out.println(average/3);    
+    }
+    
+}
