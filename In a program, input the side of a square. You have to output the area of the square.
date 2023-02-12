@@ -1,0 +1,16 @@
+import java.util.*;
+public class java-beginner-to-advanced{
+    public static void main(String args[]) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the  Side one");
+        int A =sc.nextInt();
+        System.out.println("Enter the  Side two");
+        int B =sc.nextInt();
+    
+        int square = A*B;
+        System.out.println(" area of a square is");
+        System.out.println(square);
+        
+    }
+    
+}
