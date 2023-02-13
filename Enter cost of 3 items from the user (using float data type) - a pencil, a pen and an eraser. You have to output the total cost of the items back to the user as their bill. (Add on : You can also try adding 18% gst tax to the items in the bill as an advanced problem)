@@ -1,0 +1,20 @@
+import java.util.*;
+public class q1 {
+    public static void main(String args[]) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the cost of pencil");
+        int A =sc.nextInt();
+        System.out.println("Enter the cost of pen");
+        int B =sc.nextInt();
+        System.out.println("Enter the cost of eraser");
+        int C =sc.nextInt();
+    
+        int add = A+B+C;
+        System.out.println(" total cost of the item");
+        System.out.println(add);
+        System.out.println("adding 18% gst tax to the items in the bill");
+        int gst = add*18/100;
+        System.out.println(gst+add);
+    }
+    
+}
