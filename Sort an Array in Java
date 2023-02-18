@@ -1,0 +1,23 @@
+ import java.util.Scanner;
+public class q1
+{
+    public static void main(String[] args){
+ 
+ int[] primes = {12, 15, 45, 13, 21};
+ System.out.println("array before sorting : " + Arrays.toString(primes));
+ System.out.println("sorting array in ascending order");
+
+ Arrays.sort(primes);
+ System.out.println("array after sorting : " + Arrays.toString(primes));
+        
+ String[] fruits = {"apple", "banana", "orange", "grapes"};
+ System.out.println("String array before sorting : " 
+                           + Arrays.toString(fruits));
+ System.out.println("Sorting array in descending order");
+        
+ 
+ Arrays.sort(fruits, Collections.reverseOrder());
+ System.out.println("array after sorting : " + Arrays.toString(fruits));
+}
+}
+
