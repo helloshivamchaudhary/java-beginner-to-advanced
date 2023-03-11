@@ -1,0 +1,15 @@
+import java.io.*;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+class Q1 {
+	public static void main(String[] args)
+	{
+		LocalDateTime date = LocalDateTime.now();
+
+		DateTimeFormatter myDateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+		String formattedDate = date.format(myDateFormat);
+
+		System.out.println(formattedDate);
+	}
+}
