@@ -1,0 +1,21 @@
+
+import java.io.File;
+public class Q1 {
+	public static void main(String[] args)
+	{
+
+		File file = new File("/home/RAJ/Folder/BIG.java");
+
+		File rename = new File("/home/HARNUR/Folder/HelloWorld.java");
+
+		boolean flag = file.renameTo(rename);
+
+		if (flag == true) {
+			System.out.println("File Successfully Rename");
+		}
+
+		else {
+			System.out.println("Operation Failed");
+		}
+	}
+}
